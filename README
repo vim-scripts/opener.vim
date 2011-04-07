@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3543
+
+The opener plugin allows you to open files, URLs, or anything recognizable to your system in the appropriate viewer.
+
+COMMANDS
+
+:Opener [location]
+
+Open the location with the appropriate handler. If location is not given, use whatever is visually selected. Multiple lines can be selected.
+
+MAPPINGS
+
+gO
+
+Invoke :OpenLocation with the visually selected text, or the value of <cfile>, if no text is selected.
